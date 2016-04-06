@@ -1,0 +1,41 @@
+body {font-family: "微软雅黑"}
+
+
+@media (min-width: 768px){
+.footer_media_test{text-align: center}
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+.footer_media_test{text-align: right}
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "微软雅黑";
+}
+
+
+.main-content{padding-top:60px;}
+
+.top10{margin-top: 10px;}
+
+
+/*颜色*/
+.green{color:green}
+.red{color:red}
+.gray{color:gray}
+
+
+/*表格*/
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+vertical-align: middle;
+}
+
+
+.center{text-align: center}
+
+
+.errorMsg{color:red}
+
+.labelTd{text-align: right}

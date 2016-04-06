@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+	    <default-action-ref name="error">
+	    /error.jsp
+	    </default-action-ref>
+		<action name="calculate" class="calculateAction" method="calculate">
+			<result>/navigation.jsp</result>
+		</action>
+		<action name="calculateBenjin" class="calculateAction" method="calculateBenjin">
+			<result>/benjin.jsp</result>
+		</action>
+		<action name="calculateShichang" class="calculateAction" method="calculateShichang">
+			<result>/gupiao.jsp</result>
+		</action>
+		<action name="calculateRate" class="calculateAction" method="calculateRate">
+			<result>/lilv.jsp</result>
+		</action>
+		<action name="calculateDingtou" class="calculateAction" method="calculateDingtou">
+			<result>/dingtou.jsp</result>
+		</action>
+		<action name="calculateDanli" class="calculateAction" method="calculateDanli">
+			<result>/danli.jsp</result>
+		</action>
+		<action name="calculateDengE" class="calculateAction" method="dengEBenxi">
+			<result>/dengE.jsp</result>
+		</action>
+		
+		<action name="test" class="calculateAction" method="test">
+			<result>/guanli.jsp</result>
+		</action>
+		<action name="addRecord" class="calculateAction" method="addRecord">
+			<result>/guanli.jsp</result>
+		</action>
+		<action name="upData" class="calculateAction" method="upData">
+			<result>/guanli.jsp</result>
+		</action>
+	</package>
+</struts>    
