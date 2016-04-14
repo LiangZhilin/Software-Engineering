@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="90dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/big_tital"
+        android:layout_margin="100dp"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:clickable="true"
+        android:background="@android:color/transparent"
+        />
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/single_interest"
+        android:id="@+id/btn_SingleInterest"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:clickable="true"
+        android:background="@drawable/btn_border"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compund_interest"
+        android:id="@+id/btn_CompundInterest"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="40sp"
+        android:clickable="true"
+        android:background="@drawable/btn_border"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_capital"
+        android:id="@+id/btn_CalculateCapital"
+        android:layout_margin="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/btn_border"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_nper"
+        android:id="@+id/btn_CalculateNper"
+        android:layout_margin="10dp"
+        android:textSize="40sp"
+        android:clickable="true"
+        android:background="@drawable/btn_border"
+        />
+
+
+</LinearLayout>

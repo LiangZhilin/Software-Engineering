@@ -1,0 +1,21 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">复利计算器</string>
+    <string name="single_interest">单利计算</string>
+    <string name="compund_interest">复利计算</string>
+    <string name="invest_interest">投资管理</string>
+    <string name="principal">本金:</string>
+    <string name="rate">利率:</string>
+    <string name="term">期限:</string>
+    <string name="calculate">计算</string>
+    <string name="title_activity_single_activity">Single_activity</string>
+    <string name="title_activity_compound">CompoundActivity</string>
+    <string name="calculate_capital">本金计算</string>
+    <string name="title_activity_capital">CapitalActivity</string>
+    <string name="result">终额</string>
+    <string name="calculate_nper">投资时长计算</string>
+    <string name="title_activity_nper">NperActivity</string>
+    <string name="calculate_rate">利率计算</string>
+    <string name="big_tital">复利计算器</string>
+</resources>

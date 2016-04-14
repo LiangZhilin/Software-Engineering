@@ -61,7 +61,7 @@
 							<td style="width: 215px">现值计算公式</td>
 							<td style="width: 215px">
 							<div>
-							<form action="test.action">现值查询：<input type="text"  name="thisYear"/><a></a>
+							<form action="test.action">现值查询：<input type="text"  name="thisYear" placeholder="请输入查询年份"/><a></a>
 							<input type="submit" value="查询">
 							</form></td>
 							</div>
